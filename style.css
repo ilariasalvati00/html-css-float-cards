@@ -18,11 +18,16 @@ main{
     color: white;
     text-align: left;
     float:left;
+    width: calc(20% + 110px);
+    margin-left: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
 
 .box img{
-    width: 30%;
+    width: 110px;
     float:left;
+    margin: 0 10px 0 0;
 
 }
 .box div{
@@ -35,4 +40,18 @@ main{
     display:table;
 }
 
+.role{
+    margin: 10px 0;
+}
+
+.name{
+    margin: 10px 0 0 0;
+}
+
+.email{
+    color: cornflowerblue;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
 
