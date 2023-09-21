@@ -1,0 +1,39 @@
+header> h1{
+    margin: auto;
+    width: 80%;
+    color: #e53170;
+    font-family: 'Skranji', cursive;
+    text-align: center;
+}
+
+main{
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    float:left;
+}
+
+.box img{
+    width: 30%;
+    float:left;
+
+}
+.box div{
+    display: inline-block;
+}
+
+.box>div:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+
